@@ -1,7 +1,7 @@
 -- 1. Создать таблицу student с полями student_id serial, first_name varchar, last_name varchar, birthday date, phone varchar
 create table student
 (
-	student_id serial,
+	student_id serial primary key,
 	first_name varchar,
 	last_name varchar,
 	birthday date,
